@@ -43,6 +43,7 @@ body {
   padding: 20px 13px;
   border: none;
   cursor: pointer;
+  border-radius: 1rem;
 }
 
 .btn:hover{
@@ -69,7 +70,7 @@ p{
 }
 
 #home-info{
-  height: 400px;
+  height: 450px;
 }
 
 #home-info .section-one{
@@ -86,6 +87,10 @@ p{
   height: 100%;
   text-align: justify;
   padding: 50px 30px;
+}
+
+#timeline .project{
+  text-align: center;
 }
 
 #timeline ul {
@@ -191,6 +196,7 @@ p{
   width: 100%;
   padding:10px;
   border: 1px#ddd solid;
+  border-radius: 1rem;
 }
 
 #contact-form textarea{
@@ -207,11 +213,32 @@ p{
 #main-footer{
   text-align: center;
   background: var(--secondary-color);
-  padding: 20px;
+  padding: auto;
 }
 
 
 @media(max-width: 900px) {
+  #home-info .section-one{
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 50px 30px;
+}
+#home-info .section-two{
+  float: none;
+  width: 100%;
+  text-align: center;
+  padding: 70px 30px;
+}
+
+#timeline{
+  height: 100%;
+}
+
+#timeline .project{
+  padding-top: 600px;
+}
+
   #timeline ul li div {
     width: 250px;
   }
@@ -219,9 +246,38 @@ p{
   #timeline ul li:nth-child(even) div {
     left: -284px;
   }
+
+  
 }
 
 @media(max-width: 600px) {
+  #home-info .section-one{
+      float: none;
+      width: 100%;
+      text-align: center;
+      padding: 50px 30px;
+  }
+  #home-info .section-two{
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 70px 30px;
+  }
+
+  #timeline{
+    height: 100%;
+  }
+
+  #timeline .project{
+    padding-top: 600px;
+  }
+
+  #timeline ul {
+    background: var(--primary-color);
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   #timeline ul li {
     margin-left: 20px;
   }
@@ -239,5 +295,13 @@ p{
     border-width: 8px 16px 8px 0;
     border-color: transparent var(--secondary-color) transparent transparent;
   }
+
+  #contact-form input, 
+#contact-form textarea{
+  width: 50%;
+  padding:10px;
+  border: 1px#ddd solid;
+  border-radius: 1rem;
 }
 
+}
