@@ -40,7 +40,7 @@ body {
   font-size: 20px;
   color: #fff;
   background: #060611;
-  padding: 20px 35px;
+  padding: 20px 100px;
   border: none;
   cursor: pointer;
   border-radius: 1rem;
@@ -67,7 +67,7 @@ p{
 #showcase .showcase-content{
   text-align: center;
   padding-top: 20px;
-  margin: 20px;
+  margin: 15px;
 }
 
 #home-info{
@@ -298,7 +298,7 @@ p{
 
   #contact-form input, 
 #contact-form textarea{
-  width: 50%;
+  width: 70%;
   padding:10px;
   border: 1px#ddd solid;
 }
@@ -353,7 +353,7 @@ p{
 
   #contact-form input, 
 #contact-form textarea{
-  width: 50%;
+  width: 70%;
   padding:10px;
   border: 1px#ddd solid;
 }
